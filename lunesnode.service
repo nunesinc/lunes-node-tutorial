@@ -4,7 +4,7 @@
 
   [Service]
   WorkingDirectory = /opt/lunesnode/
-  ExecStart = /usr/bin/java -jar lunesnode-latest.jar lunesnode.conf
+  ExecStart = /usr/bin/java -jar lunesnode-0.0.10.jar lunesnode.conf
   Restart = always
   RestartSec = 30s
   StandardOutput = journal
